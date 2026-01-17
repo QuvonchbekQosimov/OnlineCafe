@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 55%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.main-header {
+  padding: 10px 0;
+  text-align: center;
+}
+@font-face {
+  font-family: "DancingScript";
+  src: url("/font/static/DancingScript-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("/font/static/OpenSans-Regular.ttf") format("truetype");
+}
+.main-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-area {
+  background-image: url(/img/banner-area__img.jpg);
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.main-navigation__logo {
+  font-family: "DancingScript";
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  line-height: 1.25;
+  display: inline-block;
+  margin: 0;
+  cursor: pointer;
+  margin-right: auto;
+}
+.main-navigation__items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 40px;
+}
+.main-navigation__items li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "OpenSans";
+  line-height: 24px;
+  color: rgb(235, 255, 255);
+  text-transform: uppercase;
+}
+.main-navigation__items li a:hover {
+  color: #ffbe33;
+}
+.main-navigation__items li a.active {
+  color: #ffbe33;
+}
+.main-navigation__icon i {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+}
+.main-navigation__icon {
+  display: inline-block;
+  margin: 0 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.main-navigation__right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 70px;
+}
+
+.button {
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: none;
+  background-color: #ffbe33;
+  color: white;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "OpenSans";
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.button:hover {
+  background-color: #E69C00;
+}
+/*Home Section*/
+.home-section__title {
+  font-family: "DancingScript", cursive;
+  font-size: 48px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+}
+.home-section__description {
+  font-family: "OpenSans", sans-serif;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+  line-height: 24px;
+}
+.home-section__left{
+    padding: 200px 0;
+    width: 58%;
+}
+
